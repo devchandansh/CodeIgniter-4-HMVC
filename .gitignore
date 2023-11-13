@@ -16,3 +16,13 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+#codeigniter 4
+writable/debugbar/*
+!writable/.htaccess
+writable/logs/*
+!writable/logs/index.html
+writable/session/*
+!writable/session/index.html
+uploads/session/*
+!uploads/session/index.html
